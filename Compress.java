@@ -123,6 +123,7 @@ public class Compress {
                 }
                 bitset.flushRemaining();
             }
+            scanner.close();
         } catch (IOException e) {
             System.out.println("Error: " + e.getMessage());
         }

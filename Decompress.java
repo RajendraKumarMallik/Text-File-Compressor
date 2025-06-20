@@ -106,6 +106,7 @@ public class Decompress {
             }
             in.close();
             out.close();
+            scanner.close();
         } catch (IOException e) {
             System.out.println("Error during decoding: " + e.getMessage());
         }

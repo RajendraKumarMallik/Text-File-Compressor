@@ -135,6 +135,7 @@ public class Compress_file {
         flushBits(out, buffer, bitCount);
         fis.close();
         out.close();
+        sc.close();
     }
 
     public static boolean checkStopSequence(DataInputStream in) throws IOException {
@@ -214,6 +215,7 @@ public class Compress_file {
 
         in.close();
         out.close();
+        sc.close();
     }
 
     public static void main(String[] args) {
